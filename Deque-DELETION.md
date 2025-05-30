@@ -1,12 +1,12 @@
 # Exp.No:38  
 ## Deque - DELETION
 
----
+
 
 ### AIM  
 To write a Python program to delete elements at FRONT END of deque using a collection built-in function.
 
----
+
 
 ### ALGORITHM  
 
@@ -19,14 +19,25 @@ To write a Python program to delete elements at FRONT END of deque using a colle
 5. Remove the front element of the deque using `popleft()`.  
 6. Print the final deque after deletion.  
 
----
+
 
 ### PROGRAM  
 
 ```
+import collections
+a=input()
+b=input()
+c=input()
+de=collections.deque([a,b,c])
+de.popleft()
+print("The deque after deletion is :")
+print(de)
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/269792de-bf8f-49e9-bdb5-30a81b3c77c7)
 
 
 ### RESULT
+Thus the program has implemented successfully.
