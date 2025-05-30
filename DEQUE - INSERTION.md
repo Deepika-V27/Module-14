@@ -1,12 +1,12 @@
 # Exp.No:39  
 ## DEQUE - INSERTION
 
----
+
 
 ### AIM  
 To write a Python program to insert elements at REAR END of deque using a collection built-in function.
 
----
+
 
 ### ALGORITHM  
 
@@ -20,14 +20,26 @@ To write a Python program to insert elements at REAR END of deque using a collec
 8. Print the message `"The deque after appending at right is :"`.  
 9. Print the contents of the deque.  
 
----
+
 
 ### PROGRAM  
 
 ```
+import collections
+a=int(input())
+b=int(input())
+c=int(input())
+de=collections.deque([a,b,c])
+de.append(14)
+de.append(15)
+
+print("The deque after appending at right is :")
+print(de)
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/69befba0-43ba-4607-bddb-5cbfd7906ac9)
 
 ### RESULT
+Thus the program has implementd successfully.
